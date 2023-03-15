@@ -8,11 +8,12 @@
 
 }
 body{
-    background-image:url(../styles/images/desktop.jpg);
+    background-color: aqua;
     display:flex;
     justify-content: center;
     justify-items: center;
     min-height:100vh;
+    margin:50px;
 }
 .container{
     position:relative;
@@ -22,7 +23,10 @@ body{
     background: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin: 50px;
 }
 .containder.sideA{
+    position: relative;
+    padding: 40px;
 
 }
