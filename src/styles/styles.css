@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap;')
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-image:url(../styles/images/desktop.jpg);
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    min-height:100vh;
+}
+.container{
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    max-height:1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.containder.sideA{
+
+}
