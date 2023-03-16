@@ -19,14 +19,85 @@ body{
     position:relative;
     width: 100%;
     max-width: 1000px;
-    max-height:1000px;
+    max-height: auto;
     background: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 50px;
 }
-.containder.sideA{
+.container.sideA{
     position: relative;
     padding: 40px;
 
+}
+.SideAcontents{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:solid 1px grey;
+}
+.sideAcontents .images{
+    position:relative;
+    width:200px;
+    height:200px;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+.sideAcontents .images img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.sideAcontents h1{
+    color: blue;
+    font-size: 1.5em;
+    margin-top:20px ;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height:1.4em;
+}
+.sideAcontents h1 span{
+    font-size:o.8em;
+    font-weight: 300;
+}
+.contacts{
+    padding:40px;
+
+}
+.title{
+    color:blueviolet;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contacts ul{
+    position: relative;
+}
+.contacts ul li{
+    position:relative;
+    list-style:none;
+    margin:10px;
+    cursor: pointer;
+}
+.contacts ul li .icon{
+    display:inline-block;
+    width:30px;
+    font-size:18px;
+}
+.forms{
+    margin-bottom: 20px ;
+    margin-left: 40px;
+}
+
+.containder.sideB{
+    position: relative;
+    padding: 40px;
 }

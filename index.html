@@ -5,19 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My digital Resume</title>
-    <link rel="stylesheet" href="SRC/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="SRC/CSS/styles.css"
+     
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
+<header>       
     <div class="sideA">
     <div class="sideAcontents">
     <div class="images">
         <picture>
-            <source srcset="../images/Headshot.png" media="(max-width: 500px)"/>
-            <source srcset="../images/shoulders.jpg" media="(max-width: 1200px)"/>
-            <img class=image src="../images/normal.png" width="110" length="110" alt="my profile picture"/a>
-       </picture>   
-    <div class="sideB">    
+            <source srcset="./SRC/images/headshot.png" media="(max-width: 500px)"/>
+            <source srcset="./SRC/images/shoulders.jpg" media="(max-width: 1200px)"/>
+            <img class=image src="./SRC/images/normal.png" width="110" length="110" alt="my profile picture"/a>
+       </picture>
+       </div>   
+       <h1> Aobakwe Hope Sello<br><Span>Student Web Developer</Span></h1>
+      <div class="contacts">
+        <h2 class="title">CONTACT DETAILS</h2>
+    <ul>
+        <li>
+            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+            <span class="text">github</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+            <span class="text">linkedin</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+            <span class="text">facebook</span>
+        </li>
+        <li>
+            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <span class="text">Gmail</span>
+        </li>
+    </ul>
+      </div> 
+
+      <div class="form">
+        <h4 class="title"> Contact Me:</h4>
+        <form action="https://formsubmit.co/aobakoe.hopesello@gmail.com" method="POST">
+
+            <label for="Name:">Name:
+                <input type="text" id="Name" name="Name" placeholder="required">
+            </label>
+
+            <label for="Email:">Email:
+                <input type="email" id="Email" name="Email" placeholder="required">
+            </label>
+
+            <label for="Contact:">Contact:
+                <Input type="text" id="Contact" name="Contact" placeholder="numbers only">
+            </label>
+
+            <select name="Reason:" id="Reason:">
+                <option value="interview opportunity">Interview opportunity</option>
+                <option value="Recruiter">Recruiter</option>
+                <option value="Resume Feedback">Resume Feedback</option>
+            </select> 
+            <textarea name="resume feedback" width="20px" lenght="20px" placeholder="resume feedback"></textarea>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Erase all</button>
+        </form> 
+      </div>
+    </div>
+
+    </div>    
+    <div class="sideB">
+    
 
     </div>
     
