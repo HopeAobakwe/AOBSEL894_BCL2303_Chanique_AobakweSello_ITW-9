@@ -18,3 +18,4 @@ headings have different fonts and styles
 <a> for links
 @media for responsiveness
 
+figma: https://www.figma.com/file/1RXFN8gvGSZGYr3stdNE9G/Untitled?node-id=1-2&t=7vjfyk6CnC6ITPkA-0
