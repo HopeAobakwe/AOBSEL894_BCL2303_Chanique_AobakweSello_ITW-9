@@ -8,13 +8,14 @@
 
 }
 body{
-    background-color: aqua;
+    background-image: url(../images/desktop.jpg);
     display:flex;
     justify-content: center;
     justify-items: center;
     min-height:100vh;
     margin:50px;
 }
+
 .container{
     position:relative;
     width: 100%;
@@ -64,7 +65,7 @@ body{
     line-height:1.4em;
 }
 .sideAcontents h1 span{
-    font-size:o.8em;
+    font-size:0.8em;
     font-weight: 300;
 }
 .contacts{
@@ -72,11 +73,20 @@ body{
 
 }
 .title{
-    color:blueviolet;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    text-align: center;
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px; 
+    text-align: center;
+    background-color: rgb(3, 3, 54);
+    color:aliceblue;
+    padding: 12px;
+}
 }
 .contacts ul{
     position: relative;
@@ -95,9 +105,35 @@ body{
 .forms{
     margin-bottom: 20px ;
     margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
 }
+label{
+    padding:10px;
+    }
+button{
+    margin: 5px;
+    }
+a{
+    text-decoration:solid;
+    color:blueviolet;
+    }
 
 .containder.sideB{
     position: relative;
     padding: 40px;
+    margin-left: 20px;
+
+}
+h2{
+    border-style:ridge;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: white;  
+    text-align: center;
+    background-color: rgb(3, 3, 54);
+    color:aliceblue;
+    padding: 12px;
 }
